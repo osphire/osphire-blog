@@ -1,0 +1,4 @@
+baseURL = 'https://osphire.com/'
+languageCode = 'en-gb'
+title = 'Osphire'
+theme = 'monochrome'
