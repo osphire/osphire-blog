@@ -1,4 +1,31 @@
 baseURL = 'https://osphire.com/'
 languageCode = 'en-gb'
-title = 'Osphire'
-theme = 'hextra'
+title = 'osphire'
+theme = 'neopost'
+[params]
+theme = 'light-green'
+
+[menus]
+[[menus.main]]
+name = 'Home'
+pageRef = '/'
+weight = 1
+[[menus.main]]
+name = 'Blog'
+pageRef = '/blog'
+weight = 2
+[[menus.main]]
+name = 'About'
+pageRef = '/about'
+weight = 3
+[[menus.main]]
+name = 'Search'
+weight = 4
+[menus.main.params]
+type = 'search'
+[[menus.main]]
+name = 'GitHub'
+pageRef = '/'
+weight = 5
+[menus.main.params]
+icon='github'
