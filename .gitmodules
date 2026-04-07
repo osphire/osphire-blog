@@ -8,7 +8,7 @@
 [submodule "themes/neopost"]
 	path = themes/neopost
 	url = https://github.com/salatine/neopost
-[submodule "content/themes/kayal"]
-	path = content/themes/kayal
+[submodule "themes/kayal"]
+	path = themes/kayal
 	url = https://github.com/mnjm/kayal.git
 	branch = main
